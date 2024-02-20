@@ -20,7 +20,7 @@ access to information, and reduced opportunities in education, employment, and s
 
 ## 🔻 Tech Stack
 
-- **Client:** Android
+- **Client:** Android (JAVA with Kotlin)
 
 - **Server:** FLask, python, DL models
 
