@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StartActivity">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@mipmap/back_last"
+        android:scaleType="fitXY"/>
+    <!-- Back Button -->
+    <ImageView
+        android:id="@+id/ivback"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:padding="10dp"
+        android:src="@drawable/back_button"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <!-- Languages TextView -->
+    <TextView
+        android:id="@+id/languages"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/languages"
+        android:textStyle="bold"
+        android:fontFamily="@font/april"
+        android:textColor="@color/white"
+        android:textSize="28sp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="10dp"/>
+
+    <!-- Arabic Button -->
+    <ImageView
+        android:id="@+id/btnArab"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/arabic_last"
+        app:layout_constraintTop_toBottomOf="@+id/languages"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <!-- Arabic TextView -->
+    <TextView
+        android:id="@+id/arabic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/btnArab"
+        android:layout_alignEnd="@+id/btnArab"
+        android:layout_below="@+id/btnArab"
+        android:text="@string/arabic"
+        android:fontFamily="@font/april"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toBottomOf="@+id/btnArab"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <!-- Turkish Button -->
+    <ImageView
+        android:id="@+id/btnTur"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/btnArab"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/turkish_last"
+        app:layout_constraintTop_toBottomOf="@+id/arabic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <!-- Turkish TextView -->
+    <TextView
+        android:id="@+id/turkish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/btnTur"
+        android:layout_alignEnd="@+id/btnTur"
+        android:layout_below="@+id/btnTur"
+        android:text="@string/turkish"
+        android:fontFamily="@font/april"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toBottomOf="@+id/btnTur"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <!-- English Button -->
+    <ImageView
+        android:id="@+id/btnEn"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/btnTur"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/english"
+        app:layout_constraintTop_toBottomOf="@+id/turkish"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <!-- English TextView -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/btnEn"
+        android:layout_alignEnd="@+id/btnEn"
+        android:layout_below="@+id/btnEn"
+        android:text="@string/english"
+        android:fontFamily="@font/april"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toBottomOf="@+id/btnEn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SignLang</string>
+    <string name="title_activity_start">StartActivity</string>
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="hospital">مستشفي</string>
+    <string name="cafe">مقهي</string>
+    <string name="train">قطار</string>
+    <string name="bank">بنك</string>
+    <string name="arabic">عربي</string>
+    <string name="turkish">تركي</string>
+    <string name="english">انجليزي</string>
+    <string name="greek">يوناني</string>
+    <string name="signshine">Signshine</string>
+    <string name="speak_with_your_hands">تحدث بيدك</string>
+    <string name="understand_with_your_heart">افهم بقلبك</string>
+    <string name="start">ابدأ</string>
+    <string name="username_or_email">اسم المستخدم او البريد الالكتروني</string>
+    <string name="password">كلمه السر</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="register">اشتراك</string>
+    <string name="sign_up">اشتراك</string>
+    <string name="words">كلمات</string>
+    <string name="letters">حروف</string>
+    <string name="translate_to_text">ترجم من لغه الاشاره</string>
+    <string name="translate_to_video">ترجم من لغتك</string>
+    <string name="wright_text_to_be_translated">ادخل النص المراد ترجمته</string>
+    <string name="languages">اللغات</string>
+    <string name="confirm_password">تاكيد كلمه المرور</string>
+</resources>

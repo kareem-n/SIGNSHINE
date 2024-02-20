@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StartActivity">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@mipmap/back_last"
+        android:scaleType="fitXY"/>
+    <ImageView
+        android:id="@+id/ivback"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:padding="10dp"
+        app:srcCompat="@drawable/back_button"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <!-- Words CardView -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/ll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        app:cardCornerRadius="20dp"
+        app:cardBackgroundColor="#88000000"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="139dp">
+
+        <ImageView
+            android:id="@+id/btnWords"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/words_last"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <!-- Words TextView -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ll"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/april"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:textColor="@color/white"
+        android:text="@string/words"
+        app:layout_constraintStart_toStartOf="@+id/ll"
+        app:layout_constraintEnd_toEndOf="@+id/ll"
+        app:layout_constraintTop_toBottomOf="@+id/ll"/>
+
+    <!-- Letters CardView -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/ll2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="#88000000"
+        app:cardCornerRadius="20dp"
+        app:layout_constraintTop_toBottomOf="@+id/ll"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="120dp">
+
+        <ImageView
+            android:id="@+id/btnAlpha"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/letters_last"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <!-- Letters TextView -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ll2"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/april"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:textColor="@color/white"
+        android:text="@string/letters"
+        app:layout_constraintStart_toStartOf="@+id/ll2"
+        app:layout_constraintEnd_toEndOf="@+id/ll2"
+        app:layout_constraintTop_toBottomOf="@id/ll2"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

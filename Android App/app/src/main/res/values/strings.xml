@@ -1,0 +1,36 @@
+<resources>
+    <string name="title_activity_start">StartActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="hospital">Hospital</string>
+    <string name="cafe">Cafe</string>
+    <string name="train">Train</string>
+    <string name="bank">Bank</string>
+    <string name="arabic">Arabic</string>
+    <string name="turkish">Turkish</string>
+    <string name="english">English</string>
+    <string name="greek">Greek</string>
+    <string name="signshine">Signshine </string>
+    <string name="speak_with_your_hands">Speak with Your Hands</string>
+    <string name="understand_with_your_heart">Understand with Your Heart</string>
+    <string name="start">Start</string>
+    <string name="username_or_email">Username or Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="sign_up">Sign up</string>
+    <string name="words">Words</string>
+    <string name="letters">Letters</string>
+    <string name="translate_to_text">Translate from sign-language</string>
+    <string name="translate_to_video">Translate from your language</string>
+    <string name="wright_text_to_be_translated">Enter Text To Be Translated</string>
+    <string name="languages">LANGUAGES</string>
+    <string name="app_name">SignLang</string>
+    <string name="confirm_password">Confirm Password</string>
+</resources>
